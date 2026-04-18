@@ -27,31 +27,31 @@ Follow these steps to read the CSharp directory in Obsidian:
 ## Concepts and Terminology
 
 - Contravariant
-	- `Concepts_and_Terminology/Contravariant` [[Contravariant]]
+	- `Concepts_and_Terminology/Contravariant.md` [[Contravariant]]
 - Covariant
-	- `Concepts_and_Terminology/Covariant` [[Covariant]]
+	- `Concepts_and_Terminology/Covariant.md` [[Covariant]]
 - Encapsulation
-	- `Concepts_and_Terminology/Encapsulation` [[Encapsulation]]
+	- `Concepts_and_Terminology/Encapsulation.md` [[Encapsulation]]
 - Inheritance
-	- `Concepts_and_Terminology/Inheritance` [[Inheritance]]
+	- `Concepts_and_Terminology/Inheritance.md` [[Inheritance]]
 - Invariant
-	- `Concepts_and_Terminology/Invariant` [[Invariant]]
+	- `Concepts_and_Terminology/Invariant.md` [[Invariant]]
 
 ---
 ## Keywords
 
 - new
-	- `Keywords/New` [[New]]
+	- `Keywords/New.md` [[New]]
 
 ---
 ## Members
 
 - fields
-	- `Members/Fields` [[Fields]]
+	- `Members/Fields.md` [[Fields]]
 - methods
-	- `Members/Methods` [[Methods]]
+	- `Members/Methods.md` [[Methods]]
 - properties
-	- `Members/Properties` [[Properties]]
+	- `Members/Properties.md` [[Properties]]
 
 ---
 ## Modifiers
@@ -153,19 +153,19 @@ Follow these steps to read the CSharp directory in Obsidian:
 ### Concurrent
 
 - ConcurrentBag
-	- `Concurrent/ConcurrentBag` [[ConcurrentBag]]
+	- `Concurrent/ConcurrentBag.md` [[ConcurrentBag]]
 - ConcurrentDictionary
-	- `Concurrent/ConcurrentDictionary` [[ConcurrentDictionary]]
+	- `Concurrent/ConcurrentDictionary.md` [[ConcurrentDictionary]]
 - ConcurrentList
-	- `Concurrent/ConcurrentList` [[ConcurrentList]]
+	- `Concurrent/ConcurrentList.md` [[ConcurrentList]]
 - ConcurrentQueue
-	- `Concurrent/ConcurrentQueue` [[ConcurrentQueue]]
+	- `Concurrent/ConcurrentQueue.md` [[ConcurrentQueue]]
 
 ### Custom Types
 
 - Classes
-	- `Custom_Types/Classes` [[Classes]]
+	- `Custom_Types/Classes.md` [[Classes]]
 - Records
-	- `Custom_Types/Records` [[Records]]
+	- `Custom_Types/Records.md` [[Records]]
 - Structs
-	- `Custom_Types/Structs` [[Structs]]
+	- `Custom_Types/Structs.md` [[Structs]]
