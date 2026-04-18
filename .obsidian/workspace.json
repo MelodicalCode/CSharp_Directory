@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modifiers/Access/public.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "public"
+              "title": "README"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modifiers/Access/public.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for public"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modifiers/Access/public.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from public"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modifiers/Access/public.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of public"
+              "title": "Outline of README"
             }
           }
         ]
@@ -212,21 +212,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "057e6ec89c53ec28",
+  "active": "ca80bacdd8182b9e",
   "lastOpenFiles": [
-    "Concepts and Terminology/Encapsulation.md",
     "Modifiers/Access/public.md",
-    "Concepts and Terminology/Contravariant.md",
-    "Concepts and Terminology/Invariant.md",
-    "Concepts and Terminology/Covariant.md",
-    "Concepts and Terminology/Inheritance.md",
-    "Concepts and Terminology",
+    "Concepts_and_Terminology/Encapsulation.md",
+    "Concepts_and_Terminology/Contravariant.md",
+    "Concepts_and_Terminology/Invariant.md",
+    "Concepts_and_Terminology/Covariant.md",
+    "Concepts_and_Terminology/Inheritance.md",
+    "Concepts_and_Terminology",
     "Keywords/New.md",
     "Keywords",
-    "Types/Custom Types/Structs.md",
-    "Types/Custom Types/Records.md",
-    "Types/Custom Types/Classes.md",
-    "Types/Custom Types",
+    "Types/Custom_Types/Structs.md",
+    "Types/Custom_Types/Records.md",
+    "Types/Custom_Types/Classes.md",
+    "Types/Custom_Types",
     "Members/Methods.md",
     "Members/Properties.md",
     "Members/Fields.md",

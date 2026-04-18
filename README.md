@@ -24,13 +24,43 @@ Follow these steps to read the CSharp directory in Obsidian:
 ## Hardline between Sections
 
 ---
+## Concepts and Terminology
+
+- Contravariant
+	- `Concepts_and_Terminology/Contravariant` [[Contravariant]]
+- Covariant
+	- `Concepts_and_Terminology/Covariant` [[Covariant]]
+- Encapsulation
+	- `Concepts_and_Terminology/Encapsulation` [[Encapsulation]]
+- Inheritance
+	- `Concepts_and_Terminology/Inheritance` [[Inheritance]]
+- Invariant
+	- `Concepts_and_Terminology/Invariant` [[Invariant]]
+
+---
+## Keywords
+
+- new
+	- `Keywords/New` [[New]]
+
+---
+## Members
+
+- fields
+	- `Members/Fields` [[Fields]]
+- methods
+	- `Members/Methods` [[Methods]]
+- properties
+	- `Members/Properties` [[Properties]]
+
+---
 ## Modifiers
 
 ### Access
 
 - public
 	- Accessible from any code
-	- [[public]]
+	- `Modifiers/Access/public.md` [[public]]
 - internal
 	- Accessible within the same assembly
 - private
@@ -116,3 +146,26 @@ Follow these steps to read the CSharp directory in Obsidian:
 	- Guarantees no instance member mutates the struct's state
 - record
 	- Declares a type with value-based equality semantics and synthesized members
+
+---
+## Types
+
+### Concurrent
+
+- ConcurrentBag
+	- `Concurrent/ConcurrentBag` [[ConcurrentBag]]
+- ConcurrentDictionary
+	- `Concurrent/ConcurrentDictionary` [[ConcurrentDictionary]]
+- ConcurrentList
+	- `Concurrent/ConcurrentList` [[ConcurrentList]]
+- ConcurrentQueue
+	- `Concurrent/ConcurrentQueue` [[ConcurrentQueue]]
+
+### Custom Types
+
+- Classes
+	- `Custom_Types/Classes` [[Classes]]
+- Records
+	- `Custom_Types/Records` [[Records]]
+- Structs
+	- `Custom_Types/Structs` [[Structs]]
