@@ -1,6 +1,6 @@
 ## Description
 
-The public keyword is used to allow entire solution access to that specific type or member. If you have several dll's/assemblies/projects (whatever term is best for you) that share a project reference, all `public` types/members are accessible. It allows for total no permission needed use of this type/member.
+The public keyword is used to allow entire solution access to that specific type or member. If you have several dll's/assemblies/projects (whatever term is best for you) that share a project reference, all `public` types/members are accessible. It allows for total no permission needed use of this type/member. [^1]
 
 ---
 ## Deep Dive
@@ -145,3 +145,8 @@ public class DerivedService : BaseService
 
 ##### Solution
 Use [[protected]] (derived class access only) or [[private]] with constructor injection forcing [[Encapsulation]].
+
+---
+## References
+
+[^1]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/public
