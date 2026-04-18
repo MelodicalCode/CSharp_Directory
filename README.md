@@ -4,7 +4,7 @@ Directory of different C# &amp; .NET concepts, based on what I've learned about 
 ---
 ## How to read:
 
-These markdown files are intended to be read through a markdown-specific editor/note taking application like [Obsidian](https://obsidian.md/download). They can be read easily on [Github](https://github.com/dcconnell/CSharp_Directory) as well, just letting you know how they're being written and intended to be viewed if there are any formatting anomalies. I will footnote any and all references I come across while researching. There will also be code examples of implementations and sometimes just full .cs files about the topic if I feel that it's easier to explain through a larger code example.
+These markdown files are intended to be read with [Obsidian](https://obsidian.md/download), a markdown-specific editor/note taking application. They can be read easily on [Github](https://github.com/dcconnell/CSharp_Directory) as well, just letting you know how they're being written and intended to be viewed if there are any formatting anomalies. I will footnote any and all references I come across while researching. There will also be code examples of implementations and sometimes just full .cs files about the topic if I feel that it's easier to explain through a larger code example.
 
 Follow these steps to read the CSharp directory in Obsidian:
 1. Download  [Obsidian](https://obsidian.md/download)
