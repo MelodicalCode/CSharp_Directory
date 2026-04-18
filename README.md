@@ -1,10 +1,32 @@
 # CSharp_Directory
-Directory of different C# &amp; .NET concepts, based on what I've learned about them and their best use cases
+Directory of different C# &amp; .NET concepts, based on what I've learned about them and their best use cases. If you enjoyed reading this please give it a star 🌟
+
+---
+## Instructions on how to read
+
+These markdown files are intended to be read through a markdown-specific editor/note taking application like [Obsidian](https://obsidian.md/download). They can be read easily on [Github](https://github.com/dcconnell/CSharp_Directory) as well, just letting you know how they're being written and intended to be viewed if there are any formatting anomalies.
+
+Follow these steps to read the CSharp directory in Obsidian:
+1. Download  [Obsidian](https://obsidian.md/download)
+2. Pull down this repo, I.E. open terminal and git clone https://github.com/dcconnell/CSharp_Directory.git Or use [Github Desktop](https://desktop.github.com/download/) for a GUI experience
+3. Open  [Obsidian](https://obsidian.md/download) and select "Open folder as Vault"
+4. Open the cloned repository folder into  [Obsidian](https://obsidian.md/download)
+
+# Structure of Directory:
+
+## Section Title
+
+### Grouping Name
+- C# construct
+	- Brief Description for as a quick-reference
+	- Link to full article going in depth (if not present I haven't written one yet, but since it's listed on the directory it will have an article)
+
+## Hardline between Sections
 
 ---
 ## Modifiers
 
-#### Access
+### Access
 
 - public
 	- Accessible from any code
@@ -21,7 +43,7 @@ Directory of different C# &amp; .NET concepts, based on what I've learned about 
 - file
 	- Scopes a top-level type's visibility to the file it's declared in
 
-#### Member
+### Member
 
 - static
 	- Belongs to the type itself rather than an instance
@@ -34,7 +56,7 @@ Directory of different C# &amp; .NET concepts, based on what I've learned about 
 - required
 	- Property or field must be set via an object initializer by the caller
 
-#### Inheritance / Polymorphism
+### Inheritance / Polymorphism
 
 - abstract
 	- Member has no implementation and must be overridden; or type cannot be instantiated
@@ -47,7 +69,7 @@ Directory of different C# &amp; .NET concepts, based on what I've learned about 
 - new
 	- Explicitly hides an inherited member (suppresses compiler warning)
 
-#### Method
+### Method
 
 - async
 	- Method contains `await` expressions and returns a task-like type
@@ -56,7 +78,7 @@ Directory of different C# &amp; .NET concepts, based on what I've learned about 
 - partial
 	- Type or method definition is split across multiple files
 
-#### Parameter
+### Parameter
 
 - ref
 	- Argument is passed by reference; must be initialized before the call
@@ -71,7 +93,7 @@ Directory of different C# &amp; .NET concepts, based on what I've learned about 
 - scoped
 	- Restricts the lifetime of a ref struct value to the current method
 
-#### Unsafe / Interop (My favorite)
+### Unsafe / Interop (My favorite)
 
 - unsafe
 	- Allows pointer operations and unmanaged memory access in the block or member
@@ -80,12 +102,12 @@ Directory of different C# &amp; .NET concepts, based on what I've learned about 
 - stackalloc
 	- Allocates memory on the stack instead of the heap (technically an operator, often grouped here)
 
-#### Event
+### Event
 
 - event
 	- Declares a member as an event backed by a delegate
 
-#### Struct / Ref
+### Struct / Ref
 
 - ref (type only)
 	- Declares a struct that must live on the stack and cannot be boxed
