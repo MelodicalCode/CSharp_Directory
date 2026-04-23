@@ -375,7 +375,7 @@ var sourceGenOptions = new JsonSerializerOptions
 weatherForecast = JsonSerializer.Deserialize<WeatherForecast>(jsonString, sourceGenOptions);
 ```
 
-Seeing as how JSON is the predominate language between frontends and backends you can see why the writers of System.Text.Json felt it appropriate to utilize [SG].
+Seeing as how JSON is the predominate language between frontends and backends you can see why the writers of System.Text.Json felt it appropriate to utilize [SG]. Without it, every single serialized JSON object would need to be reflected upon at runtime to determine their key value pair structure.
 
 Due to the level of annoyance [SG] are generally to produce, there's a level of engineer development effort weighted against the runtime advantage. Personally, I'm always in favor the most efficient way possible to do things, and now with AI being able to write so much code at once, it really causes the benefits to outweigh the negatives. [SG] is an underrated feature, for example, if a project required you to have that specific .ToString() format of `"{ object = {type} = {value} }"` it would require exponentially more development time for every object that required that .ToString() overload. [SG] solves that issue.
 
