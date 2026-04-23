@@ -41,7 +41,7 @@ Follow these steps to read the CSharp directory in Obsidian:
 ## Keywords
 
 - new
-	- `Keywords/New.md` [[New]]
+	- `Keywords/New.md` [[new]]
 
 ---
 ## Members

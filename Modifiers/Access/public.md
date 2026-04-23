@@ -34,7 +34,7 @@ class IllUseYou
 }
 ```
 
-As you can see in *Figure B* this allows for anyone to access a [[Classes]] and it's members. While implementing this with a [[New]] keyword declaration is safe in most code scenarios, it could prove detrimental with the situations outlined next.
+As you can see in *Figure B* this allows for anyone to access a [[Classes]] and it's members. While implementing this with a [[new]] keyword declaration is safe in most code scenarios, it could prove detrimental with the situations outlined next.
 
 ---
 ## Situations to Avoid With Examples
