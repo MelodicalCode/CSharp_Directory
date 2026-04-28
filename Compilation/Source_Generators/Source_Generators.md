@@ -323,7 +323,7 @@ HelloWorldGenerated.HelloWorld.SayHello();
 This is essentially what is happening in the System.Text.Json and why it's more efficient at runtime that other JSON serialization libraries. To use it a [SG] with System.Text.Json simply:
 1. Create a partial class that derives from [JsonSerializerContext](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.serialization.jsonserializercontext).
 2. Specify the type to serialize or deserialize by applying [JsonSerializableAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.serialization.jsonserializableattribute) to the context class.
-3. 1. Call a [JsonSerializer](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.jsonserializer) method that either: 
+3. Call a [JsonSerializer](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.jsonserializer) method that either: 
 	1. Takes a [JsonTypeInfo](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.serialization.metadata.jsontypeinfo-1) instance, or 
 	2. Takes a [JsonSerializerContext](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.serialization.jsonserializercontext) instance, or
 	3. Takes a [JsonSerializerOptions](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.jsonserializeroptions) instance and you've set its [JsonSerializerOptions.TypeInfoResolver](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.jsonserializeroptions.typeinforesolver#system-text-json-jsonserializeroptions-typeinforesolver) property to the [[default]] property of the context type.
